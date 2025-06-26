@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: black; /* 👈 keeps outer black */
+}
+
+.skills-wrapper {
+  min-height: 100vh;
+  background: #ffcce0;
+  padding: 40px 20px;
+  font-family: 'Poppins', sans-serif;
+  color: #222;
+}
+
+/* Main content layout */
+.skills-content {
+  max-width: 950px;
+  margin: auto;
+}
+
+/* Section layout */
+.section {
+  margin-top: 50px;
+  padding-top: 30px;
+  border-top: 2px dashed #ffaad2;
+  text-align: center;
+}
+
+.section h4 {
+  color: #d1006f;
+  font-weight: 700;
+  margin-bottom: 10px;
+  position: relative;
+  display: inline-block;
+}
+
+.section h4::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: #ff3399;
+  margin: 6px auto 0 auto;
+  border-radius: 10px;
+}
+
+/* Lists */
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+ul li {
+  margin: 10px 0;
+  line-height: 1.6;
+}
+
+ul li::before {
+  content: '✨ ';
+  color: #d1006f;
+  margin-right: 6px;
+}
+
+/* Image styling */
+.role-img-big {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 15px;
+  border: 3px solid #ff66a3;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.role-img-big:hover {
+  transform: scale(1.1);
+}
+
+/* Text beside image */
+.inspiration-block h5 {
+  color: #d1006f;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.inspiration-block p {
+  font-size: 15px;
+  color: #333;
+  line-height: 1.6;
+}
+
+.inspiration-block ul li {
+  margin-bottom: 8px;
+}
+
+/* Toggle button */
+.demo-btn {
+  background-color: #ff3399;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  font-size: 14px;
+  border-radius: 8px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.demo-btn:hover {
+  background-color: #d1006f;
+  transform: scale(1.05);
+}
+
+/* Optional: Dark Mode effect for skills */
+body.dark-body {
+  background-color: black;
+}
+
+body.dark-body .skills-wrapper,
+body.dark-body .home-wrapper {
+  background-color: #1e1e1e;
+  color: #eee;
+}
+
+/* Headings */
+body.dark-body h1,
+body.dark-body h4,
+body.dark-body h5 {
+  color: #ffaad2;
+}
+
+/* Paragraphs and list items */
+body.dark-body p,
+body.dark-body li {
+  color: #ccc;
+}
+
+/* Borders or image styles (optional) */
+body.dark-body .role-img-big {
+  border-color: #ffaad2;
+}
+
+/* Demo Button */
+body.dark-body .demo-btn {
+  background-color: #ffaad2;
+  color: black;
+}
+
+body.dark-body .demo-btn:hover {
+  background-color: #ff77b4;
+}

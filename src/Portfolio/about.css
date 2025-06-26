@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;600&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: black;
+}
+
+/* Wrapper and Content */
+.about-wrapper {
+  min-height: 100vh;
+  background: #ffcce0; /* baby pink */
+  padding: 40px 20px;
+  color: #222;
+}
+
+.about-content {
+  max-width: 950px;
+  margin: auto;
+}
+
+/* Headings with Bebas Neue */
+h1, h2, .highlight, .section h2 {
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/* Highlight color */
+.highlight {
+  color: #ff3333;
+}
+
+/* Profile picture */
+.profile-pic-about {
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 20px;
+  border: 4px solid #ff66a3;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.profile-pic-about:hover {
+  transform: scale(1.07);
+}
+
+/* Section layout */
+.section {
+  margin-top: 50px;
+  padding-top: 30px;
+  border-top: 2px dashed #ffaad2;
+  text-align: center;
+}
+
+.section h2 {
+  color: #d1006f;
+  font-weight: 700;
+  margin-bottom: 20px;
+  display: inline-block;
+  position: relative;
+}
+
+.section h2::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #ff3399;
+  margin: 6px auto 0;
+  border-radius: 10px;
+}
+
+/* Traits list */
+.traits-list {
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 20px;
+}
+
+.traits-list li {
+  margin-bottom: 12px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.traits-list li::before {
+  content: '🌟 ';
+  color: #d1006f;
+  margin-right: 6px;
+}
+
+/* Paragraph */
+.section p {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.7;
+  max-width: 750px;
+  margin: auto;
+}
+
+/* Dark mode */
+body.dark-body .about-wrapper {
+  background-color: #1e1e1e;
+  color: #eee;
+}
+
+body.dark-body .section h2,
+body.dark-body .highlight {
+  color: #ffaad2;
+}
+
+body.dark-body .traits-list li,
+body.dark-body .section p,
+body.dark-body .lead {
+  color: #ccc;
+}
+
+body.dark-body .profile-pic-about {
+  border-color: #ffaad2;
+}
