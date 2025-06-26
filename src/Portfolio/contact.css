@@ -364,3 +364,5 @@ body.dark-body .social-box {
 body.dark-body .social-box:hover {
   background-color: #3a3a3a;
 }
+
+@import 'bootstrap-icons/font/bootstrap-icons.css';
