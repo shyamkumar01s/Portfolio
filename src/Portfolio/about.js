@@ -11,7 +11,7 @@ function About(){
           <div className="col-md-7">
             <h1 className="mb-3">💬 <span className="highlight">Who I Am</span></h1>
             <p className="lead">
-              I'm <strong>Shyam</strong> (Saiyan), a self-driven learner and passionate developer who trains both mind and body like a warrior.
+              I'm <strong>Shyam</strong>, a self-driven learner and passionate developer who trains both mind and body like a warrior.
             </p>
             <p>
               I craft clean UIs, explore new stacks, and grow every day — staying consistent like Batman, resilient like Goku, and intense like Vegeta.
