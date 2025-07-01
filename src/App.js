@@ -6,6 +6,9 @@ import About from './Portfolio/about';
 import Skills from './Portfolio/skills';
 import Contact from './Portfolio/contact';
 import Footer from './Portfolio/footer';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap-icons/font/bootstrap-icons.css';
+
 
 function App() {
   return (
