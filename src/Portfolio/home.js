@@ -10,7 +10,7 @@ function Home(){
         {/* Intro Section */}
         <div className="intro-section row align-items-center text-start mb-5">
           <div className="col-md-7">
-            <h1 className="mb-2">Hi, I'm <span className="highlight">Goku</span> 😁</h1>
+            <h1 className="mb-2">Hi, I'm <span className="highlight">Shyam</span> 😁</h1>
             <p className="lead mb-4">
               Driven by discipline, forged through focus — a developer who grows stronger with every challenge.
             </p>
